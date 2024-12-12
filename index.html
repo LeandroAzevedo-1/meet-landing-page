@@ -19,8 +19,6 @@
     href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Figtree:ital,wght@0,300..900;1,300..900&family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Heebo:wght@100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Manrope:wght@200..800&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Outfit:wght@100..900&family=Oxanium:wght@200..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Public+Sans:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Young+Serif&display=swap"
     rel="stylesheet">
 
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-
 </head>
 
 <body>
@@ -31,8 +29,8 @@
     </div>
 
     <div class="header-content">
-      <picture>
-        <source srcset="./assets/tablet/image-hero.png" media="(max-width: 768px )">
+      <picture class="imagens-header">
+        <source srcset="./assets/tablet/image-hero.png" media="(max-width: 768px)" class="image-tablet">
         <img class="image-left" src="./assets/desktop/image-hero-left.png" alt="imagem left">
       </picture>
 
@@ -53,10 +51,8 @@
 
   <main class="section-messages">
 
-
       <hr>
-      <p class="one">01</p>
-    
+      <p class="one-line">01</p>
     
     <div class="imagens">
       <img src="./assets/desktop/image-woman-in-videocall.jpg" alt="Imagem vídeo call">
@@ -78,8 +74,12 @@
   </main>
   
   <footer class="footer">
-      
-    <img src="./assets/desktop/image-footer.jpg" alt="image footer">
+    
+    <picture>
+      <source srcset="./assets/mobile/image-footer.jpg" media="(max-width:550px)"> 
+      <source srcset="./assets/tablet/image-footer.jpg" media="(max-width:768px)"> 
+      <img src="./assets/desktop/image-footer.jpg" alt="image footer">
+    </picture>
     
     <div class="footer-content">
       <h3 class="experience">Experience more together</h3>
@@ -88,8 +88,6 @@
     </div>
   </footer>
 
-
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/svg-with-js.min.css" integrity="sha512-T+W8aCLi/CrpBhX5eX42Kw0/oGb/cxhQHYsQDIXx7UgK8c0A4CWw+TOQIqNJms1AZHI+6eKE4U1GubeLrguNww==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </body>
 
 </html>

@@ -19,7 +19,7 @@
 }
 .header-content .content-main .title {
     font-size: 4rem;
-    width: 400px;
+    width: 450px;
     margin: 0 auto;
     font-weight: 800;
     color: #29273B;
@@ -80,7 +80,7 @@
     transform: rotate(90deg);
     color: #c1c1c1 ;  
 }
-.section-messages .one, .two-line {
+.section-messages .one-line, .two-line {
     border: 1px solid #c1c1c1;
     border-radius: 50%;
     width: 50px;
@@ -112,7 +112,6 @@
    color: #4D97AB;
    font-weight: 900;
    letter-spacing: 5px;
-   
 }
 .section-messages .meetings {
     text-align: center;
@@ -151,7 +150,6 @@
     width: 100%;
     justify-content: space-evenly;
     align-items: flex-start;
-    margin: 0 5%;
     flex-wrap: wrap;
     z-index: 1;
 }
@@ -163,7 +161,6 @@
 .footer .footer-description {
     width: 320px;
     color: #fff;
-    
 }
 .footer .btn-footer {
     background-color: #8056b1;
