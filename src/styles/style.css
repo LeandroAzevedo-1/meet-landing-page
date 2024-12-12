@@ -1,0 +1,158 @@
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.logo {
+    text-align: center;
+    margin: 6em 0;
+}
+.header-content .content-main {
+    text-align: center;
+}
+.header-content .content-main .title {
+    font-size: 4rem;
+    width: 400px;
+    margin: 0 auto;
+    font-weight: 800;
+    color: #29273B;
+    line-height: 70px;
+}
+.header-content .content-main .main-text{
+    color: #8f8f8f;
+    width: 450px;
+    margin: 20px 0;
+}
+.content-main .btn-dowload {
+    border-radius: 25px;
+    padding: 13px 50px;
+    margin: 20px 15px;
+    border: none;
+    background-color: #4D97AB;
+    color: #fff;
+    font-weight: 700;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+    font-size: 16px;
+}
+.content-main .btn-dowload span {
+    color: #79c1d4;
+    margin-left: 5px;
+}
+.content-main .btn-dowload:hover {
+    background-color: #2a89a3;
+}
+.content-main .btn-what {
+    border-radius: 25px;
+    padding: 13px 30px;
+    border: none;
+    background-color: #8660B2;
+    color: #fff;
+    font-weight: 700;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+    font-size: 16px;
+}
+.content-main .btn-what:hover {
+    background-color: #7a44b8;
+
+}
+.header-content .image-left {
+    margin: -25px 0 0px -30px;
+}
+.header-content .image-right {
+    margin: 15px -30px 25px 0;
+}
+/* sections mensagem  */
+.section-messages {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.imagens {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 80px 0;
+}
+.imagens img {
+    width: 280px;
+    border-radius: 5px;
+    margin: 10px;
+}
+.section-messages .built-modern {
+   text-align: center;
+   text-transform: uppercase;
+   color: #4D97AB;
+   font-weight: 900;
+   letter-spacing: 5px;
+   
+}
+.section-messages .meetings {
+    text-align: center;
+    margin: 0 auto;
+    color: #29273B;
+    font-size: 2.5rem;
+    width: 400px;
+    font-weight: 800;
+}
+.section-messages .messages {
+    text-align: center;
+    color: #8f8f8f;
+    width: 450px;
+    margin: 20px auto;
+    padding-bottom:20px ;
+}
+/* Footer */
+.footer {
+    height: 250px;
+    position: relative;
+    background-color: #4D97AB;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer img {
+    width: 100%;
+    position: absolute;
+    height: auto;
+    left: 0;
+    top: 0;
+    opacity: 0.1;
+}
+.footer .footer-content {
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    margin: 0 5%;
+    flex-wrap: wrap;
+    z-index: 1;
+}
+.footer .experience {
+    color: #fff;
+    font-size: 2.5rem;
+    width: 350px;
+}
+.footer .footer-description {
+    width: 320px;
+    color: #fff;
+    
+}
+.footer .btn-footer {
+    background-color: #8056b1;
+    border-radius: 25px;
+    border: none;
+    color: #fff;
+    padding: 13px 50px;
+    font-weight: 700;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+.footer .btn-footer:hover {
+    background-color: #6726b3;
+
+}

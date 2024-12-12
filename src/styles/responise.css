@@ -1,0 +1,14 @@
+@media (max-width: 768px){
+    .logo {
+        margin: 5em 0;
+    }
+    .image-right {
+        display: none;
+    }
+    .header-content {
+        flex-direction: column;
+    }
+    .header-content .content-main {
+        margin: 60px 0;
+    }
+}
