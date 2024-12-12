@@ -1,9 +1,13 @@
-
+.header {
+    overflow: hidden;
+    position: relative;
+}
 .header-content {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    
+    margin: 0 auto;
+    max-width: 100%; 
 }
 .logo {
     text-align: center;
