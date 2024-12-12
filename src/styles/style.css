@@ -15,6 +15,7 @@
 }
 .header-content .content-main {
     text-align: center;
+    margin-bottom: 60px;
 }
 .header-content .content-main .title {
     font-size: 4rem;
@@ -64,7 +65,7 @@
 
 }
 .header-content .image-left {
-    margin: -25px 0 0px -30px;
+    margin: -65px 0 0px -30px;
 }
 .header-content .image-right {
     margin: 15px -30px 25px 0;
@@ -72,6 +73,27 @@
 .section-messages {
     max-width: 1200px;
     margin: 0 auto;
+}
+.section-messages hr {
+    width: 135px;
+    margin: 38px auto;
+    transform: rotate(90deg);
+    color: #c1c1c1 ;  
+}
+.section-messages .one, .two-line {
+    border: 1px solid #c1c1c1;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 13px;
+    font-weight: 800;
+    color: #c1c1c1;
+    position: relative;
+    top: 30px;
+    z-index: 1;
+    background-color: #fff;
 }
 .imagens {
     display: flex;
